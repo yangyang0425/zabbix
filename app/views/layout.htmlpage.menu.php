@@ -28,19 +28,19 @@ $icons = (new CList())
 					->addClass(ZBX_STYLE_SEARCH),
 				(new CSubmitButton(SPACE))->addClass(ZBX_STYLE_BTN_SEARCH)
 			])
-	)
-	->addItem(
-		(new CLink('Share', 'https://share.zabbix.com/'))
-			->addClass(ZBX_STYLE_TOP_NAV_ZBBSHARE)
-			->setAttribute('target', '_blank')
-			->setAttribute('title', _('Zabbix Share'))
-	)
-	->addItem(
-		(new CLink(SPACE, 'http://www.zabbix.com/documentation/3.2/'))
-			->addClass(ZBX_STYLE_TOP_NAV_HELP)
-			->setAttribute('target', '_blank')
-			->setAttribute('title', _('Help'))
 	);
+//	->addItem(
+//		(new CLink('Share', 'https://share.zabbix.com/'))
+//			->addClass(ZBX_STYLE_TOP_NAV_ZBBSHARE)
+//			->setAttribute('target', '_blank')
+//			->setAttribute('title', _('Zabbix Share'))
+//	)
+//	->addItem(
+//		(new CLink(SPACE, 'http://www.zabbix.com/documentation/3.2/'))
+//			->addClass(ZBX_STYLE_TOP_NAV_HELP)
+//			->setAttribute('target', '_blank')
+//			->setAttribute('title', _('Help'))
+//	);
 
 if (!$data['user']['is_guest']) {
 	$icons->addItem(
