@@ -24,8 +24,8 @@ define('ZABBIX_API_VERSION',	'3.2.2');
 define('ZABBIX_EXPORT_VERSION',	'3.2');
 define('ZABBIX_DB_VERSION',		3020000);
 
-define('ZABBIX_COPYRIGHT_FROM',	'2001');
-define('ZABBIX_COPYRIGHT_TO',	'2016');
+define('ZABBIX_COPYRIGHT_FROM',	'2016');
+define('ZABBIX_COPYRIGHT_TO',	'2020');
 
 define('ZBX_LOGIN_ATTEMPTS',	5);
 define('ZBX_LOGIN_BLOCK',		30); // sec
@@ -1076,7 +1076,7 @@ define('ZBX_VALID_WARNING',	2);
 define('THEME_DEFAULT', 'default');
 
 // the default theme
-define('ZBX_DEFAULT_THEME', 'blue-theme');
+define('ZBX_DEFAULT_THEME', 'dark-theme');
 
 define('ZABBIX_HOMEPAGE', 'http://www.zabbix.com');
 define('ZBX_DEFAULT_URL', 'zabbix.php?action=dashboard.view');

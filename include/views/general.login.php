@@ -31,7 +31,7 @@ require_once dirname(__FILE__).'/../page_header.php';
 
 $error = ($message !== '') ? (new CDiv($message))->addClass(ZBX_STYLE_RED) : null;
 $guest = (CWebUser::$data['userid'] > 0)
-	? (new CListItem(['or ', new CLink('sign in as guest', ZBX_DEFAULT_URL)]))
+	? (new CListItem(['', new CLink('游客身份登陆', ZBX_DEFAULT_URL)]))
 		->addClass(ZBX_STYLE_SIGN_IN_TXT)
 	: null;
 
@@ -62,17 +62,17 @@ global $ZBX_SERVER_NAME;
 					->addItem($guest)
 			)
 	]))->addClass(ZBX_STYLE_SIGNIN_CONTAINER),
-	(new CDiv([
-		(new CLink(_('Help'), 'http://www.zabbix.com/documentation/3.2/'))
-			->setTarget('_blank')
-			->addClass(ZBX_STYLE_GREY)
-			->addClass(ZBX_STYLE_LINK_ALT),
-		'&nbsp;&nbsp;•&nbsp;&nbsp;',
-		(new CLink(_('Support'), 'http://www.zabbix.com/support.php'))
-			->setTarget('_blank')
-			->addClass(ZBX_STYLE_GREY)
-			->addClass(ZBX_STYLE_LINK_ALT)
-	]))->addClass(ZBX_STYLE_SIGNIN_LINKS)
+//	(new CDiv([
+//		(new CLink(_('Help'), 'http://www.zabbix.com/documentation/3.2/'))
+//			->setTarget('_blank')
+//			->addClass(ZBX_STYLE_GREY)
+//			->addClass(ZBX_STYLE_LINK_ALT),
+//		'&nbsp;&nbsp;•&nbsp;&nbsp;',
+//		(new CLink(_('Support'), 'http://www.zabbix.com/support.php'))
+//			->setTarget('_blank')
+//			->addClass(ZBX_STYLE_GREY)
+//			->addClass(ZBX_STYLE_LINK_ALT)
+//	]))->addClass(ZBX_STYLE_SIGNIN_LINKS)
 ]))
 	->addClass(ZBX_STYLE_ARTICLE)
 	->show();

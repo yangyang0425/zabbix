@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Zabbix 3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-04 11:11+0200\n"
-"PO-Revision-Date: 2016-09-23 09:11+0300\n"
+"PO-Revision-Date: 2016-12-14 16:25+0800\n"
 "Last-Translator: 岂几 <tom3000@126.com>\n"
 "Language-Team: Zabbix <info@zabbix.com>\n"
 "Language: zh_CN\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Pootle 2.5.1.3\n"
-"X-Poedit-Basepath: ../../\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../..\n"
 "X-POOTLE-MTIME: 1474614696.000000\n"
 
 #: include/classes/import/validators/C10XmlValidator.php:358
@@ -863,8 +863,8 @@ msgstr "接近中"
 msgid "Apr"
 msgstr "四月"
 
-#: include/forms.inc.php:1801 include/func.inc.php:119
-#: include/func.inc.php:256 jsLoader.php:116
+#: include/forms.inc.php:1801 include/func.inc.php:119 include/func.inc.php:256
+#: jsLoader.php:116
 msgid "April"
 msgstr "四月"
 
@@ -977,8 +977,8 @@ msgstr "审计日志"
 msgid "Aug"
 msgstr "八月"
 
-#: include/forms.inc.php:1785 include/func.inc.php:123
-#: include/func.inc.php:260 jsLoader.php:120
+#: include/forms.inc.php:1785 include/func.inc.php:123 include/func.inc.php:260
+#: jsLoader.php:120
 msgid "August"
 msgstr "八月"
 
@@ -3711,7 +3711,7 @@ msgstr "每日"
 
 #: include/classes/core/ZBase.php:259
 msgid "Dark"
-msgstr "Dark"
+msgstr "黑"
 
 #: app/controllers/CControllerDashboardView.php:66
 #: app/views/monitoring.dashboard.view.php:156 include/menu.inc.php:46
@@ -3898,8 +3898,8 @@ msgstr "调试模式已更新"
 msgid "Dec"
 msgstr "十二"
 
-#: include/forms.inc.php:1825 include/func.inc.php:127
-#: include/func.inc.php:264 jsLoader.php:124
+#: include/forms.inc.php:1825 include/func.inc.php:127 include/func.inc.php:264
+#: jsLoader.php:124
 msgid "December"
 msgstr "十二"
 
@@ -4698,9 +4698,9 @@ msgid "Discovery object"
 msgstr "自动发现物件"
 
 #: app/views/monitoring.discovery.view.php:34
-#: app/views/monitoring.widget.discovery.view.php:46
-#: include/actions.inc.php:48 include/audit.inc.php:43
-#: include/forms.inc.php:977 include/views/configuration.discovery.edit.php:95
+#: app/views/monitoring.widget.discovery.view.php:46 include/actions.inc.php:48
+#: include/audit.inc.php:43 include/forms.inc.php:977
+#: include/views/configuration.discovery.edit.php:95
 msgid "Discovery rule"
 msgstr "自动发现规则"
 
@@ -4764,8 +4764,7 @@ msgid "Discovery rules deleted"
 msgstr "自动发现规则已删除"
 
 #: app/views/monitoring.dashboard.view.php:118
-#: app/views/monitoring.widget.discovery.view.php:60
-#: include/actions.inc.php:54
+#: app/views/monitoring.widget.discovery.view.php:60 include/actions.inc.php:54
 msgid "Discovery status"
 msgstr "自动发现状态"
 
@@ -5458,8 +5457,7 @@ msgstr "确认事件"
 msgid "Event acknowledges \"%1$s\"."
 msgstr "事件确认 \"%1$s\"."
 
-#: include/menu.inc.php:233
-#: include/views/configuration.correlation.list.php:23
+#: include/menu.inc.php:233 include/views/configuration.correlation.list.php:23
 msgid "Event correlation"
 msgstr "关联项事件"
 
@@ -5725,8 +5723,8 @@ msgstr "常用的"
 msgid "Feb"
 msgstr "二月"
 
-#: include/forms.inc.php:1781 include/func.inc.php:117
-#: include/func.inc.php:254 jsLoader.php:114
+#: include/forms.inc.php:1781 include/func.inc.php:117 include/func.inc.php:254
+#: jsLoader.php:114
 msgid "February"
 msgstr "二月"
 
@@ -6425,8 +6423,7 @@ msgstr "Hebrew (he_IL)"
 #: include/views/js/monitoring.sysmaps.js.php:47
 #: include/views/monitoring.screen.constructor.edit.php:686
 #: include/views/monitoring.sysmap.edit.php:109
-#: include/views/monitoring.sysmap.list.php:50 screenedit.php:68
-#: sysmaps.php:50
+#: include/views/monitoring.sysmap.list.php:50 screenedit.php:68 sysmaps.php:50
 msgid "Height"
 msgstr "高"
 
@@ -7262,8 +7259,7 @@ msgstr "已成功导入"
 msgid "Impossible to filter by inventory field \"%s\", which does not exist."
 msgstr "不可能以不存在的资产纪录栏位\"%s\"来过滤."
 
-#: include/classes/html/CTweenBox.php:72
-#: include/classes/html/CTweenBox.php:102
+#: include/classes/html/CTweenBox.php:72 include/classes/html/CTweenBox.php:102
 #: include/views/configuration.template.edit.php:156
 msgid "In"
 msgstr "在...之中"
@@ -8720,8 +8716,7 @@ msgstr "第三个参数无效."
 msgid "Invalid view name given \"%s\". Allowed chars: \"a-z\" and \".\"."
 msgstr "所给的\"%s\"为无效的检视名称.  可用的: \"a-z\" 和 \".\"."
 
-#: include/menu.inc.php:129
-#: include/views/configuration.host.massupdate.php:388
+#: include/menu.inc.php:129 include/views/configuration.host.massupdate.php:388
 msgid "Inventory"
 msgstr "资产记录"
 
@@ -9023,8 +9018,8 @@ msgstr "Jabber 标识符"
 msgid "Jan"
 msgstr "一月"
 
-#: include/forms.inc.php:1771 include/func.inc.php:116
-#: include/func.inc.php:253 jsLoader.php:113
+#: include/forms.inc.php:1771 include/func.inc.php:116 include/func.inc.php:253
+#: jsLoader.php:113
 msgid "January"
 msgstr "一月"
 
@@ -9036,8 +9031,8 @@ msgstr "日语 (ja_JP)"
 msgid "Jul"
 msgstr "七月"
 
-#: include/forms.inc.php:1775 include/func.inc.php:122
-#: include/func.inc.php:259 jsLoader.php:119
+#: include/forms.inc.php:1775 include/func.inc.php:122 include/func.inc.php:259
+#: jsLoader.php:119
 msgid "July"
 msgstr "七月"
 
@@ -9045,8 +9040,8 @@ msgstr "七月"
 msgid "Jun"
 msgstr "六月"
 
-#: include/forms.inc.php:1821 include/func.inc.php:121
-#: include/func.inc.php:258 jsLoader.php:118
+#: include/forms.inc.php:1821 include/func.inc.php:121 include/func.inc.php:258
+#: jsLoader.php:118
 msgid "June"
 msgstr "六月"
 
@@ -9729,8 +9724,8 @@ msgstr "映射"
 
 #: app/views/monitoring.dashboard.view.php:58
 #: app/views/monitoring.map.view.php:26 include/menu.inc.php:98
-#: include/views/conf.import.php:40
-#: include/views/monitoring.sysmap.list.php:22 popup.php:103
+#: include/views/conf.import.php:40 include/views/monitoring.sysmap.list.php:22
+#: popup.php:103
 msgid "Maps"
 msgstr "拓扑图"
 
@@ -9738,8 +9733,8 @@ msgstr "拓扑图"
 msgid "Mar"
 msgstr "三月"
 
-#: include/forms.inc.php:1791 include/func.inc.php:118
-#: include/func.inc.php:255 jsLoader.php:115
+#: include/forms.inc.php:1791 include/func.inc.php:118 include/func.inc.php:255
+#: jsLoader.php:115
 msgid "March"
 msgstr "三月"
 
@@ -9823,8 +9818,8 @@ msgstr "周期T的最大值 > N"
 msgid "Maximum value for period T is NOT N"
 msgstr "周期T的最大值不是 N"
 
-#: include/forms.inc.php:1811 include/func.inc.php:120
-#: include/func.inc.php:257 jsLoader.php:117
+#: include/forms.inc.php:1811 include/func.inc.php:120 include/func.inc.php:257
+#: jsLoader.php:117
 msgid "May"
 msgstr "五月"
 
@@ -11039,8 +11034,8 @@ msgstr "关于这个问题之前通知所有人收到所有消息"
 msgid "Nov"
 msgstr "十一"
 
-#: include/forms.inc.php:1815 include/func.inc.php:126
-#: include/func.inc.php:263 jsLoader.php:123
+#: include/forms.inc.php:1815 include/func.inc.php:126 include/func.inc.php:263
+#: jsLoader.php:123
 msgid "November"
 msgstr "十一月"
 
@@ -11294,8 +11289,8 @@ msgstr "十月"
 msgid "Octal"
 msgstr "八进制"
 
-#: include/forms.inc.php:1805 include/func.inc.php:125
-#: include/func.inc.php:262 jsLoader.php:122
+#: include/forms.inc.php:1805 include/func.inc.php:125 include/func.inc.php:262
+#: jsLoader.php:122
 msgid "October"
 msgstr "十月"
 
@@ -11304,10 +11299,9 @@ msgstr "十月"
 msgid "Off"
 msgstr "关"
 
-#: app/views/monitoring.widget.web.view.php:76
-#: app/views/report.services.php:60 app/views/report.services.php:61
-#: app/views/report.services.php:62 app/views/report.services.php:63
-#: include/classes/html/CTriggersInfo.php:76
+#: app/views/monitoring.widget.web.view.php:76 app/views/report.services.php:60
+#: app/views/report.services.php:61 app/views/report.services.php:62
+#: app/views/report.services.php:63 include/classes/html/CTriggersInfo.php:76
 #: include/views/administration.users.list.php:111
 #: include/views/js/conf.import.js.php:24 report2.php:500
 msgid "Ok"
@@ -11602,8 +11596,8 @@ msgstr "或"
 msgid "Original"
 msgstr "原始的"
 
-#: include/classes/html/CTweenBox.php:75
-#: include/classes/html/CTweenBox.php:105 include/html.inc.php:844
+#: include/classes/html/CTweenBox.php:75 include/classes/html/CTweenBox.php:105
+#: include/html.inc.php:844
 msgid "Other"
 msgstr "其他"
 
@@ -13107,8 +13101,7 @@ msgstr "SQL描述式执行已失败: \"%1$s\""
 msgid "SQL statement execution has failed \"%1$s\"."
 msgstr "SQL描述式执行已失败: \"%1$s\"."
 
-#: include/discovery.inc.php:47
-#: include/views/configuration.action.edit.php:834
+#: include/discovery.inc.php:47 include/views/configuration.action.edit.php:834
 #: include/views/configuration.action.edit.php:1543
 #: include/views/js/configuration.discovery.edit.js.php:179
 msgid "SSH"
@@ -13544,8 +13537,8 @@ msgstr "九月"
 msgid "Separated"
 msgstr "分开的"
 
-#: include/forms.inc.php:1795 include/func.inc.php:124
-#: include/func.inc.php:261 jsLoader.php:121
+#: include/forms.inc.php:1795 include/func.inc.php:124 include/func.inc.php:261
+#: jsLoader.php:121
 msgid "September"
 msgstr "九月"
 
@@ -13645,8 +13638,8 @@ msgstr "设置主机清单模式"
 #: include/classes/screens/CScreenEvents.php:33
 #: include/classes/screens/CScreenHistory.php:161
 #: include/classes/screens/CScreenProblem.php:672
-#: include/classes/screens/CScreenProblem.php:850
-#: include/triggers.inc.php:1090 include/views/configuration.item.list.php:133
+#: include/classes/screens/CScreenProblem.php:850 include/triggers.inc.php:1090
+#: include/views/configuration.item.list.php:133
 #: include/views/configuration.trigger.prototype.edit.php:65
 #: include/views/configuration.trigger.prototype.list.php:42
 #: include/views/configuration.trigger.prototype.massupdate.php:39
@@ -13782,7 +13775,7 @@ msgstr "已查看"
 
 #: include/views/general.login.php:61 index.php:55 index.php:64
 msgid "Sign in"
-msgstr "注册"
+msgstr "登录"
 
 #: app/views/layout.htmlpage.menu.php:56
 msgid "Sign out"
@@ -14365,8 +14358,7 @@ msgstr "目标列表"
 msgid "Target type"
 msgstr "目标类型"
 
-#: include/discovery.inc.php:61
-#: include/views/configuration.action.edit.php:835
+#: include/discovery.inc.php:61 include/views/configuration.action.edit.php:835
 #: include/views/configuration.action.edit.php:1544
 #: include/views/js/configuration.discovery.edit.js.php:180
 msgid "Telnet"
@@ -15023,8 +15015,7 @@ msgstr[0] "触发器模板已更新"
 #: include/views/configuration.template.edit.php:318
 #: include/views/configuration.trigger.prototype.edit.php:25
 #: include/views/configuration.trigger.prototype.list.php:23
-#: include/views/configuration.trigger.prototype.massupdate.php:24
-#: popup.php:63
+#: include/views/configuration.trigger.prototype.massupdate.php:24 popup.php:63
 msgid "Trigger prototypes"
 msgstr "触发器类型"
 
@@ -15225,8 +15216,7 @@ msgstr "类型 "
 msgid "UNKNOWN"
 msgstr "未知的"
 
-#: include/screens.inc.php:44
-#: include/views/configuration.httpconf.edit.php:162
+#: include/screens.inc.php:44 include/views/configuration.httpconf.edit.php:162
 #: include/views/configuration.httpconf.popup.php:90
 #: include/views/configuration.trigger.prototype.edit.php:517
 #: include/views/configuration.triggers.edit.php:545
@@ -15341,8 +15331,7 @@ msgid "Units"
 msgstr "单位"
 
 #: app/views/monitoring.widget.web.view.php:76 include/actions.inc.php:114
-#: include/actions.inc.php:1077
-#: include/classes/screens/CScreenHostsInfo.php:89
+#: include/actions.inc.php:1077 include/classes/screens/CScreenHostsInfo.php:89
 #: include/classes/screens/CScreenHttpTestDetails.php:117
 #: include/classes/screens/CScreenHttpTest.php:162
 #: include/correlation.inc.php:124 include/discovery.inc.php:115
@@ -15842,8 +15831,7 @@ msgstr "拓扑图 \"%2$s\" 用户组共享找不到参数 %1$s"
 msgid "User group sharing is missing parameters: %1$s for screen \"%2$s\"."
 msgstr "聚合图形 \"%2$s\" 用户组共享找不到参数 %1$s"
 
-#: include/menu.inc.php:278
-#: include/views/administration.usergroups.edit.php:22
+#: include/menu.inc.php:278 include/views/administration.usergroups.edit.php:22
 #: include/views/administration.usergroups.list.php:22
 #: include/views/monitoring.screen.edit.php:129
 #: include/views/monitoring.slideconf.edit.php:173
@@ -15946,8 +15934,7 @@ msgstr "使用别名\"%s\"的用户已存在."
 msgid "Username"
 msgstr "用户名称"
 
-#: include/menu.inc.php:282
-#: include/views/administration.usergroups.edit.php:54
+#: include/menu.inc.php:282 include/views/administration.usergroups.edit.php:54
 #: include/views/administration.usergroups.list.php:144
 #: include/views/administration.users.edit.php:28
 #: include/views/administration.users.list.php:29
@@ -16499,8 +16486,7 @@ msgstr "当启用时"
 #: include/views/js/monitoring.sysmaps.js.php:41
 #: include/views/monitoring.screen.constructor.edit.php:683
 #: include/views/monitoring.sysmap.edit.php:105
-#: include/views/monitoring.sysmap.list.php:49 screenedit.php:67
-#: sysmaps.php:49
+#: include/views/monitoring.sysmap.list.php:49 screenedit.php:67 sysmaps.php:49
 msgid "Width"
 msgstr "宽"
 

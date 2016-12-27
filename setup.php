@@ -108,12 +108,12 @@ if (!CWebUser::$data) {
  * Displaying
  */
 $link = (new CLink('GPL v2', 'http://www.zabbix.com/license.php'))
-	->setTarget('_blank')
-	->addClass(ZBX_STYLE_GREY)
-	->addClass(ZBX_STYLE_LINK_ALT);
+    ->setTarget('_blank')
+    ->addClass(ZBX_STYLE_GREY)
+    ->addClass(ZBX_STYLE_LINK_ALT);
 $sub_footer = (new CDiv(['Licensed under ', $link]))->addClass(ZBX_STYLE_SIGNIN_LINKS);
 
 (new CTag('body', true, [(new CDiv([$ZBX_SETUP_WIZARD, $sub_footer]))->addClass(ZBX_STYLE_ARTICLE), makePageFooter()]))
-	->show();
+    ->show();
 ?>
 </html>
